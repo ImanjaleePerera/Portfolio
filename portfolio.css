@@ -115,7 +115,7 @@ nav ul li a:hover::after{    /*menu bar ekta cursor eka aran yddi irak andena ek
     width: 0;    /* 0 denne hidden krnna */
     height: 3px;
     background: #00A78E;
-    position: absolute;                     /*yatin iri kallak andena eka*/
+    position: absolute;                     
     left:0;
     bottom: -8px;
     transition: 0.5s;
