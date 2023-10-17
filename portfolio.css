@@ -7,16 +7,19 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    background: #000000; /*body background eka black kra*/
-    color: #ffffff;
+body {
+    background: #000000; /* Set the background color to black */
+    color: #ffffff; /* Set the text color to white */
+    
 }
+
 #header{       /*we use hash tag because it is an ID --hash tag eka nthuwa image eka penne na*/
     width: 100%;
     height: 100vh; 
     background-image: url(images/front\ new\ 1.jpeg);  /*folder name ekath ekka image name eka ghnna one*/
     background-size: cover; 
     background-position:center;
+    text-shadow: 2px 2px 4px #000000; /* Add a white border to the text */
 }
 .container{
     padding: 10px  10px;      /*top and bottom --left and right*/ 
@@ -39,7 +42,7 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color:#000000 ;
+    color:#ffffff ;
     text-decoration: none;
     font-size: 25px;
     position: relative;
@@ -48,7 +51,7 @@ nav ul li a::after{
     content: '';
     width: 0%;     /*meka 0 kroth menu bar eke underline eka nathi wela ynwa*/
     height: 3px;
-    background: #00a78e;
+    background: #000000;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -60,6 +63,7 @@ nav ul li a:hover::after{    /*menu bar ekta cursor eka aran yddi irak andena ek
 .header-text{    /*text eka ux/ui desig.....*/
     margin-top: 30%;
     font-size: 30px;
+    text-shadow: 2px 2px 4px #000000; /* Add a white border to the text */
 }
 .header-text h1{
     font-size: 60px;
@@ -326,7 +330,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/front\ new\ 1.jpeg);
     }
     .header-text{
         margin-top: 100%;
